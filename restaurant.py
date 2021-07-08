@@ -148,7 +148,7 @@ Decimal.grid(row=5,column=2)
 
 Division=Button(f2,padx=16,pady=16,bd=4, fg="black", font=('ariel', 20 ,'bold'),text="/",bg="powder blue", command=lambda: btnclick("/") )
 Division.grid(row=5,column=3)
-status = Label(f2,font=('aria', 15, 'bold'),width = 16, text="-By Amar Kumar",bd=2,relief=SUNKEN)
+status = Label(f2,font=('aria', 15, 'bold'),width = 16, text="By D V S S J Lokesh",bd=2,relief=SUNKEN)
 status.grid(row=7,columnspan=3)
 
 #---------------------------------------------------------------------------------------
@@ -282,4 +282,3 @@ btnprice=Button(f1,padx=16,pady=8, bd=10 ,fg="black",font=('ariel' ,16,'bold'),w
 btnprice.grid(row=7, column=0)
 
 root.mainloop()
-
